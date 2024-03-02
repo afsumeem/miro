@@ -1,6 +1,7 @@
 import { Container } from "react-bootstrap";
 import Header from "../components/shared/Header";
 import HeroSection from "../components/ui/HeroSection";
+import TrustedSection from "../components/ui/TrustedSection";
 
 const HomePage = () => {
   return (
@@ -8,6 +9,7 @@ const HomePage = () => {
       <Header />
       <Container>
         <HeroSection />
+        <TrustedSection />
       </Container>
     </div>
   );

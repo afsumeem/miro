@@ -8,7 +8,7 @@ const HeroSection = () => {
         <Col>
           <h1>Take ideas from better to best</h1>
           <p>
-            Miro is your team's visual platform to connect, collaborate, and
+            Miro is your teams visual platform to connect, collaborate, and
             create — together.
           </p>
           <Form>
