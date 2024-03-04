@@ -1,0 +1,131 @@
+.footer {
+  background: #02033b;
+
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.footer_title {
+  font-family: Inter;
+  font-size: 23px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffff;
+}
+
+.social_media_icons {
+  gap: 39.59px;
+}
+
+.social_media_icon {
+  height: 36px;
+  width: 36px;
+}
+
+.copywrite_text {
+  color: #ffff;
+  font-size: 11px;
+  font-family: Inter;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footer_second_title {
+  font-family: Inter;
+  font-size: 35px;
+  color: #ffff;
+  font-weight: 800;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footer_second_title img {
+  width: 20px;
+  height: 20px;
+}
+
+.second_title_tags {
+  color: #ffc247;
+  font-family: Inter;
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 25px;
+  letter-spacing: -0.4000000059604645px;
+  text-align: left;
+}
+
+.newsletter {
+  width: 436px;
+  height: 232.39px;
+  background: #ffc247;
+  background-image: url(../../assets/images/newsletter_bg.png);
+  border-radius: 42px;
+}
+
+.newsletter h4 {
+  font-family: Inter;
+  font-size: 23px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: -0.47999998927116394px;
+  text-align: left;
+  color: #02033b;
+}
+
+.newsletter input {
+  /* width: 109.19px;
+    height: 34.39px; */
+}
+
+.newsletter input::placeholder {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 99px;
+  height: 18px;
+
+  color: #02033b80;
+}
+
+.newsletter p {
+  font-family: Inter;
+  width: 358.15px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #02033b;
+}
+
+.newsletter button {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 800;
+
+  text-align: center;
+  color: #ffff;
+  background: #02033b;
+}
+
+.trademark_text {
+  width: 549.86px;
+  height: 45px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}

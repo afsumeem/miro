@@ -5,6 +5,8 @@ import TrustedSection from "../components/ui/TrustedSection";
 import Collaborate from "../components/ui/Collaborate";
 import WorkTogetherSection from "../components/ui/WorkTogetherSection";
 import ConnectSection from "../components/ui/ConnectSection";
+import Footer from "../components/shared/Footer";
+import WaysWeWork from "../components/ui/WaysWeWork";
 
 const HomePage = () => {
   return (
@@ -16,7 +18,10 @@ const HomePage = () => {
         <Collaborate />
         <WorkTogetherSection />
         <ConnectSection />
+        <WaysWeWork />
       </Container>
+
+      <Footer />
     </div>
   );
 };
