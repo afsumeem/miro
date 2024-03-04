@@ -1,0 +1,80 @@
+.AllTypesofWork_title {
+  font-family: Inter;
+  width: 578px;
+  height: 56px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #050038;
+}
+
+.AllTypesofWork_toggle {
+  color: #050038;
+  padding: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 24px;
+  border: 2px solid #f2f2f2;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.AllTypesofWork_toggle.active {
+  background-color: #f1f3fd;
+}
+
+.tick-line {
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: fit-content;
+  /* Set width to fit content */
+  height: 9.03px;
+  /* Adjusted height */
+  color: #05003899;
+  margin-bottom: 10px;
+  /* Add margin-bottom to create space between lines */
+  position: relative;
+  /* Position the tick symbol */
+}
+
+.tick_sign {
+  width: 11.67px;
+  height: 9.03px;
+  color: #050038;
+}
+
+.learn-more {
+  width: 124.28px;
+  height: 22px;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4262ff;
+  text-decoration: none;
+}
+
+.favTool_text {
+  font-family: Helvetica;
+  width: 212px;
+  height: 24px;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+  text-align: left;
+  color: #050038;
+}

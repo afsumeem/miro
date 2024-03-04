@@ -7,6 +7,9 @@ import WorkTogetherSection from "../components/ui/WorkTogetherSection";
 import ConnectSection from "../components/ui/ConnectSection";
 import Footer from "../components/shared/Footer";
 import WaysWeWork from "../components/ui/WaysWeWork";
+import WayYouWork from "../components/ui/WayYouWork";
+import AllKindsOfTeams from "../components/ui/AllKindsOfTeams";
+import CustomersStories from "../components/ui/CustomersStories";
 
 const HomePage = () => {
   return (
@@ -19,6 +22,9 @@ const HomePage = () => {
         <WorkTogetherSection />
         <ConnectSection />
         <WaysWeWork />
+        <WayYouWork />
+        <AllKindsOfTeams />
+        <CustomersStories />
       </Container>
 
       <Footer />
