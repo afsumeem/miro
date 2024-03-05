@@ -1,0 +1,19 @@
+.navigation-bar {
+  height: 91px;
+  background-color: rgba(255, 255, 255, 1) !important;
+  border-bottom: 1px solid rgba(240, 240, 240, 1);
+  margin-bottom: 50px;
+}
+
+.navItems {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  /* line-height: 24px; */
+  /* letter-spacing: 0em; */
+  padding-bottom: 0 !important;
+
+  margin-bottom: 0 !important;
+  text-align: center;
+  color: rgba(5, 0, 56, 1);
+}

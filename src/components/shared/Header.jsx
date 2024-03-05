@@ -2,49 +2,50 @@ import { Button } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import logo from "../../assets/images/logo.svg";
+import "../../styles/Header.css";
+import en from "../../assets/images/en.svg";
+import dropdown from "../../assets/images/dropdown.svg";
 
 const Header = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+    <Navbar collapseOnSelect expand="lg" className="navigation-bar">
       <Container fluid>
-        <Navbar.Brand href="#home">miro</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <img src={logo} alt="" style={{ height: "32px", width: "91px" }} />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
-            {/* product dropdown */}
-            <NavDropdown title="Product" id="collapsible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Product 1</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Product 3</NavDropdown.Item>
-            </NavDropdown>
-            {/* Solutions dropdown */}
-            <NavDropdown title="Solutions" id="collapsible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">
-                Solutions 1
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Solutions 3
-              </NavDropdown.Item>
-            </NavDropdown>
-            {/* Resources dropdown */}
-            <NavDropdown title="Resources" id="collapsible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">
-                Resources 1
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Resources 3
-              </NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="#features">Enterprise</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          <Nav className="me-auto ">
+            <Nav.Link href="#product" className="navItems">
+              Product <img src={dropdown} alt="" />
+            </Nav.Link>{" "}
+            <Nav.Link href="#solutions" className="navItems">
+              Solutions <img src={dropdown} alt="" />
+            </Nav.Link>{" "}
+            <Nav.Link href="#resources" className="navItems">
+              Resources <img src={dropdown} alt="" />
+            </Nav.Link>
+            <Nav.Link href="#enterprise" className="navItems">
+              Enterprise
+            </Nav.Link>
+            <Nav.Link href="#pricing" className="navItems">
+              Pricing
+            </Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="#contact">EN</Nav.Link>
-            <Nav.Link href="#contact">Contact Sales</Nav.Link>
-            <Nav.Link eventKey={2} href="#login">
+            <Nav.Link href="#EN" className="navItems">
+              <img src={en} alt="" /> EN
+            </Nav.Link>
+            <Nav.Link href="#contact" className="navItems">
+              Contact Sales
+            </Nav.Link>
+            <Nav.Link eventKey={2} href="#login" className="navItems">
               Login
             </Nav.Link>
-            <Button>Sign up free</Button>
+            <Button className="rounded-pill sign-up-btn">
+              Sign up free &#x2192;
+            </Button>
           </Nav>
         </Navbar.Collapse>
       </Container>

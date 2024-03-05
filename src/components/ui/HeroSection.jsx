@@ -1,28 +1,60 @@
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
 import headerImage from "../../assets/images/headerimage.png";
+import "../../styles/HeroSection.css";
+import rating from "../../assets/images/rating.svg";
+import rating1 from "../../assets/images/rating1.svg";
+import rating2 from "../../assets/images/rating2.png";
 
 const HeroSection = () => {
   return (
     <Container>
-      <Row>
-        <Col>
+      <Row style={{ height: "470px" }} sm={1} md={2}>
+        <Col className="hero-section">
           <h1>Take ideas from better to best</h1>
-          <p>
+          <p className="hero-section-para">
             Miro is your teams visual platform to connect, collaborate, and
             create — together.
           </p>
-          <Form>
+          <Form className="my-3">
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Label>Enter your work email</Form.Label>
-              <Form.Control type="email" placeholder="name@example.com" />
+              <Form.Control
+                type="email"
+                placeholder="Enter your work email"
+                className="rounded-pill "
+                style={{ color: " rgba(95, 92, 128, 1)" }}
+              />
             </Form.Group>
-            <Button>Sign up free</Button>
+            <Button className="sign-up-btn rounded-pill w-100">
+              Sign up free &#x2192;
+            </Button>
           </Form>
-          <p>Collaborate with your team within minutes</p>
-          <div></div>
+          <p style={{ fontSize: "14px", color: "rgba(5, 0, 56, 0.4)" }}>
+            Collaborate with your team within minutes
+          </p>
+          <div className="rating">
+            <div>
+              <div className="d-flex gap-2 mb-2">
+                <img src={rating} alt="" />
+                <img src={rating} alt="" />
+                <img src={rating} alt="" />
+                <img src={rating} alt="" />
+                <img src={rating1} alt="" />
+              </div>
+              <p
+                style={{
+                  fontSize: "11px",
+                  color: "rgba(5, 0, 56, 1)",
+                  margin: "0",
+                }}
+              >
+                Based on 5149+ reviews:
+              </p>
+            </div>
+            <img src={rating2} alt="" />
+          </div>
         </Col>
         <Col>
-          <img src={headerImage} />
+          <img src={headerImage} className="img-fluid" />
         </Col>
       </Row>
     </Container>

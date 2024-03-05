@@ -5,3 +5,12 @@
 body {
   margin: 0;
 }
+.sign-up-btn {
+  background-color: rgba(66, 98, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+}
