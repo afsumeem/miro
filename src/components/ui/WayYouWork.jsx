@@ -1,18 +1,17 @@
-import { useState } from "react";
 import { Col, Row } from "react-bootstrap";
 import workLayout from "../../assets/images/workLayout.png";
 import "../../styles/AllKindsOfTeams.css";
 
 const WayYouWork = () => {
-  const [activeIndex, setActiveIndex] = useState(null);
+  // const [activeIndex, setActiveIndex] = useState(null);
 
-  const handleClick = (index) => {
-    setActiveIndex(index === activeIndex ? null : index);
-  };
+  // const handleClick = (index) => {
+  //   setActiveIndex(index === activeIndex ? null : index);
+  // };
 
   return (
-    <div className="my-3">
-      <h1 className="AllTypesofWork_title">Built for the way you work</h1>
+    <div className="my-5">
+      <h1 className="AllTypesofWork_title my-4">Built for the way you work</h1>
       <div className="d-flex justify-content-between">
         {[
           "Brainstorming",
@@ -26,17 +25,15 @@ const WayYouWork = () => {
           <a
             key={index}
             href="#"
-            className={`AllTypesofWork_toggle ${
-              activeIndex === index ? "active" : ""
-            }`}
-            onClick={() => handleClick(index)}
+            className={`AllTypesofWork_toggle ${index === 0 ? "active" : ""}`}
+            // onClick={() => handleClick(index)}
           >
             {type}
           </a>
         ))}
       </div>
       <Row className="mt-3">
-        <Col md={6} className="">
+        <Col md={4} className="">
           {/* Tick symbol and lines */}
           <div className="mt-4">
             <h5>Brainstorming</h5>
@@ -53,9 +50,9 @@ const WayYouWork = () => {
             </a>
           </div>
         </Col>
-        <Col md={6}>
+        <Col md={8}>
           <div>
-            <img src={workLayout} alt="Example" />
+            <img src={workLayout} alt="Example" className="img-fluid" />
           </div>
         </Col>
       </Row>

@@ -1,15 +1,10 @@
-import { Button, Col, Row } from "react-bootstrap";
+import wayswework from "../../assets/images/theWaysWeWork.png";
 
 const WaysWeWork = () => {
   return (
-    <Row>
-      <Col></Col>
-      <Col>
-        <h2>The Ways We Work</h2>
-        <p>How has our relationship with work changed?</p>
-        <Button>View the report</Button>
-      </Col>
-    </Row>
+    <div className="d-flex justify-content-center my-4">
+      <img src={wayswework} alt="" />
+    </div>
   );
 };
 

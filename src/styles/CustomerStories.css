@@ -1,0 +1,9 @@
+.customer-stories h2 {
+  /* font-family: Inter; */
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: rgba(5, 0, 56, 1);
+}

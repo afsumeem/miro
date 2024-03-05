@@ -1,5 +1,5 @@
 .AllTypesofWork_title {
-  font-family: Inter;
+  /* font-family: Inter; */
   width: 578px;
   height: 56px;
   font-size: 48px;
@@ -30,7 +30,7 @@
 }
 
 .tick-line {
-  font-family: Helvetica;
+  /* font-family: Helvetica; */
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -54,14 +54,16 @@
 }
 
 .learn-more {
-  width: 124.28px;
-  height: 22px;
+  /* width: 124.28px; */
+  /* display: block;
+  margin: auto; */
+  /* height: 22px; */
   font-family: Helvetica;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
-  text-align: left;
+  text-align: center;
   color: #4262ff;
   text-decoration: none;
 }
