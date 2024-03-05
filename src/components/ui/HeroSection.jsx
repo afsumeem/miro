@@ -8,8 +8,8 @@ import rating2 from "../../assets/images/rating2.png";
 const HeroSection = () => {
   return (
     <Container>
-      <Row style={{ height: "470px" }} sm={1} md={2}>
-        <Col className="hero-section">
+      <Row>
+        <Col className="hero-section" xs={12} sm={12} md={6}>
           <h1>Take ideas from better to best</h1>
           <p className="hero-section-para">
             Miro is your teams visual platform to connect, collaborate, and
@@ -53,7 +53,7 @@ const HeroSection = () => {
             <img src={rating2} alt="" />
           </div>
         </Col>
-        <Col>
+        <Col xs={12} sm={12} md={6}>
           <img src={headerImage} className="img-fluid" />
         </Col>
       </Row>

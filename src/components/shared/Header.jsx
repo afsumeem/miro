@@ -43,7 +43,7 @@ const Header = () => {
             <Nav.Link eventKey={2} href="#login" className="navItems">
               Login
             </Nav.Link>
-            <Button className="rounded-pill sign-up-btn">
+            <Button className="rounded-pill sign-up-btn ">
               Sign up free &#x2192;
             </Button>
           </Nav>
