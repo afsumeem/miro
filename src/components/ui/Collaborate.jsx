@@ -4,10 +4,13 @@ import "../../styles/Collaborate.css";
 const Collaborate = () => {
   return (
     <div className="collaborate-title">
+      {/* section title */}
       <p>YOUR IDEA STARTS HERE</p>
       <h2>
         Collaborate without <br /> constraints
       </h2>
+
+      {/* section details */}
       <Row>
         <Col className="collaborate-content">
           <h4>Free forever</h4>

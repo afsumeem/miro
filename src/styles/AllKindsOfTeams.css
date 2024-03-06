@@ -37,14 +37,13 @@
   letter-spacing: 0em;
   text-align: left;
   width: fit-content;
-  /* Set width to fit content */
+
   height: 9.03px;
-  /* Adjusted height */
+
   color: #05003899;
   margin-bottom: 10px;
-  /* Add margin-bottom to create space between lines */
+
   position: relative;
-  /* Position the tick symbol */
 }
 
 .tick_sign {

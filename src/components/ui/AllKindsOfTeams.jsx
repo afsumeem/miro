@@ -10,9 +10,11 @@ import logo4 from "../../assets/images/logo4.png";
 const AllKindsOfTeams = () => {
   return (
     <div className="my-3">
+      {/* section title */}
       <h1 className="AllTypesofWork_title my-4">
         Built for all kinds of teams
       </h1>
+
       <div className="d-flex justify-content-between">
         {[
           "UX & Design",

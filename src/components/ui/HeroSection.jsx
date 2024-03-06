@@ -9,6 +9,7 @@ const HeroSection = () => {
   return (
     <Container>
       <Row>
+        {/* hero section content */}
         <Col className="hero-section pe-5" xs={12} sm={12} md={5}>
           <h1>Take ideas from better to best</h1>
           <p className="hero-section-para">
@@ -59,6 +60,8 @@ const HeroSection = () => {
             <img src={rating2} alt="" />
           </div>
         </Col>
+
+        {/* hero section banner */}
 
         <Col xs={12} sm={12} md={7}>
           <img src={headerImage} className="img-fluid" />

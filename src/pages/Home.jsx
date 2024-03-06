@@ -15,6 +15,7 @@ const HomePage = () => {
   return (
     <div>
       <Header />
+
       <Container>
         <HeroSection />
         <TrustedSection />
