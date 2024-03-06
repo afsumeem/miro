@@ -36,9 +36,9 @@ const WayYouWork = () => {
         <Col md={4} className="">
           {/* Tick symbol and lines */}
           <div className="mt-4">
-            <h5>Brainstorming</h5>
+            <h5 className="mb-5">Brainstorming</h5>
 
-            <p>
+            <p className="mb-5">
               Unleash creative ideas and build on them with the help of sticky
               notes, images, mind maps, videos, drawing capabilities — the list
               goes on.

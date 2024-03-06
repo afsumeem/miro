@@ -35,7 +35,7 @@ const AllKindsOfTeams = () => {
       <Row className="mt-3">
         <Col md={4} className="">
           {/* Tick symbol and lines */}
-          <div className="mt-4">
+          <div className="my-5">
             <div className="tick-line d-flex align-items-center  justify-content-center gap-4 py-3">
               <div>
                 <p className="tick_sign">&#10003;</p>
@@ -53,8 +53,8 @@ const AllKindsOfTeams = () => {
               <p> Run engaging design workshops</p>
             </div>
           </div>
-          <div>
-            <a className="learn-more" href="">
+          <div className="mb-4">
+            <a className="learn-more " href="">
               Learn More &#x2192;
             </a>
           </div>

@@ -9,7 +9,7 @@ const HeroSection = () => {
   return (
     <Container>
       <Row>
-        <Col className="hero-section" xs={12} sm={12} md={6}>
+        <Col className="hero-section pe-5" xs={12} sm={12} md={5}>
           <h1>Take ideas from better to best</h1>
           <p className="hero-section-para">
             Miro is your teams visual platform to connect, collaborate, and
@@ -28,7 +28,13 @@ const HeroSection = () => {
               Sign up free &#x2192;
             </Button>
           </Form>
-          <p style={{ fontSize: "14px", color: "rgba(5, 0, 56, 0.4)" }}>
+          <p
+            style={{
+              fontSize: "14px",
+              color: "rgba(5, 0, 56, 0.4)",
+              fontFamily: "Helvetica",
+            }}
+          >
             Collaborate with your team within minutes
           </p>
           <div className="rating">
@@ -53,7 +59,8 @@ const HeroSection = () => {
             <img src={rating2} alt="" />
           </div>
         </Col>
-        <Col xs={12} sm={12} md={6}>
+
+        <Col xs={12} sm={12} md={7}>
           <img src={headerImage} className="img-fluid" />
         </Col>
       </Row>

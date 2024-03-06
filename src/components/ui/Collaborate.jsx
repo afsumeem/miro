@@ -5,7 +5,9 @@ const Collaborate = () => {
   return (
     <div className="collaborate-title">
       <p>YOUR IDEA STARTS HERE</p>
-      <h2>Collaborate without constraints</h2>
+      <h2>
+        Collaborate without <br /> constraints
+      </h2>
       <Row>
         <Col className="collaborate-content">
           <h4>Free forever</h4>
@@ -19,7 +21,7 @@ const Collaborate = () => {
             for more features.
           </p>
         </Col>
-        <Col>
+        <Col className="collaborate-content">
           <h4>Easy integrations</h4>
           <p>
             Miro has 100+ powerful integrations with tools you already use like
@@ -29,7 +31,7 @@ const Collaborate = () => {
             .
           </p>
         </Col>
-        <Col>
+        <Col className="collaborate-content">
           <h4>Security first</h4>
           <p>
             We treat your data like you would — with the utmost care. We follow

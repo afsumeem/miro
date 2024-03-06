@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="footer">
       <Container>
         <Row>
-          <Col>
+          <Col md={7}>
             <Row>
               <Col>
                 <h1 className="footer_title">Scan. Detect. Remove.</h1>
@@ -110,7 +110,7 @@ const Footer = () => {
               </p>
             </div>
           </Col>
-          <Col>
+          <Col md={5}>
             <div className="newsletter p-5">
               <h4>Sign up to our newsletter</h4>
               <p>

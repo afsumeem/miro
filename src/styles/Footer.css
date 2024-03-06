@@ -64,8 +64,10 @@
   width: 436px;
   height: 232.39px;
   background: #ffc247;
-  background-image: url(../../assets/images/newsletter_bg.png);
+  background-image: url("../assets/images/newsletter_bg.png");
   border-radius: 42px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .newsletter h4 {

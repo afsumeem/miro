@@ -13,7 +13,7 @@ const CustomersStories = () => {
       <h2 className="mb-5">Loved by the worlds best teams</h2>
 
       <a
-        className="learn-more rounded-pill p-2 d-block m-auto w-25"
+        className="learn-more rounded-pill p-2 d-block m-auto w-25 mb-5"
         href=""
         style={{ border: "1px solid rgba(66, 98, 255, 1)" }}
       >
